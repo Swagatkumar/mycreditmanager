@@ -1,0 +1,111 @@
+body,html{
+    background-color: #191919;
+    margin: 0px;
+}
+.logo{
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 20px;
+    padding:10px;
+    border:3px solid #3399ff;
+    position:absolute;
+    color: #3399ff;
+    margin-left:40%;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.username{
+    width:30%;
+    float:left;
+    margin-left:30%;
+    font-family: 'Inconsolata', monospace;
+}
+.email{
+    float:left;
+    font-family: 'Inconsolata', monospace;
+}
+.hellouser{
+    font-size: 25px;
+    margin-left: 40%;
+    color: #ff8875;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    padding: 10px;
+    padding-top: 20px;
+}
+.helloemail{
+    font-size: 25px;
+    color: #ff8875;
+    font-family: 'Roboto', sans-serif;
+    float: right;
+    padding: 10px;
+    padding-top: 20px;
+}
+.amount{
+    font-size: 25px;
+    color: #ff8875;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    padding-top: 20px;
+    float:right;    
+}
+.History{
+    height: 50px;
+    width: 200px;
+    color: white;
+    background: #3399ff;
+    border: 0px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 2%;
+}
+.Transfer{
+    margin-left: 1%;
+    height: 50px;
+    width: 200px;
+    color: white;
+    background: #ff8875;
+    border: 0px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.transferamount{
+    border: 0px;
+    color: white;
+    background-color: transparent;
+    height: 50px;
+    width: 500px;
+    font-size: 30px;
+    margin-left: 30%;
+    margin-top: 10%;
+    outline-color: #3d6eff;
+    outline-style: solid;
+    outline-width: 2px;
+    padding:5px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.hcontent{
+    background-color: #cccccc;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: 'Titillium Web', sans-serif;
+}
+.invalid{
+    color: #ff8875;
+    font-size: 50px;
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 35%;
+    margin-top: 15%;
+}

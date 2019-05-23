@@ -1,0 +1,53 @@
+.lefttside{
+    border-right: 1px solid white;
+    width:40%;
+    position:absolute;
+    margin-top:15%;
+    margin-left:5%;
+    padding-bottom:150px;
+    padding-top:50px;
+}
+.rightside{
+    position:absolute;
+    margin-top:15%;
+    margin-left:55%;
+    padding-bottom:150px;
+    padding-top:50px;
+}
+.welcome{
+    margin:0px;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 70px;
+}
+.welcome-small{
+    margin:0px;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 20px;
+    padding:5px;
+    border:3px solid white;
+    position:absolute;
+}
+.searchbox{
+    background-color: transparent;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    font-family: 'Heebo', sans-serif;
+}
+::placeholder {
+    color: white;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: whitesmoke;
+  }
+
+  a{
+      color: white;
+      font-family: 'Quicksand', sans-serif;
+  }
